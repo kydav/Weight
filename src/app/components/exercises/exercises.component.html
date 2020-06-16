@@ -1,0 +1,12 @@
+<div>
+  <h3>Exercises</h3>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let exercise of exercises | async">
+      <div class="card">
+        <div class="card-body">
+          <a>{{exercise.name}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
